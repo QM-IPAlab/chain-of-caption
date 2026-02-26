@@ -14,7 +14,7 @@ Follow the instructions at [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-
 
 ## Run evaluation
 
-See [`examples/models/vila.sh`](examples/models/vila.sh) for the main evaluation script.
+See [`examples/models/vila.sh`](examples/models/vila.sh) for the main evaluation script and [`lmms_eval/models/vila.py`](lmms_eval/models/vila.py) for all the prompts used.
 
 First set up environment variables for downloading models and datasets.
 
@@ -55,3 +55,6 @@ Finally, run the script
 ```bash
 bash examples/models/vila.sh
 ```
+
+# Acknowledgements
+This code is an extension of [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval).
